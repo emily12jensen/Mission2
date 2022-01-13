@@ -1,0 +1,40 @@
+﻿body {
+}
+h1 {
+    text-align: center
+}
+h3 {
+    text-align: center
+}
+
+h4 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.center-block {
+    margin: auto;
+    display: block;
+}
+
+p {
+    text-align: center 
+  
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+

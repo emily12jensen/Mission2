@@ -1,6 +1,8 @@
 ﻿
 
-function gradecalc() {
+$('#submitbutton').click(
+    function()
+    {
     var assignments = $('#assignments').val();
     var groupProject = $('#groupProject').val();
     var quizzes = $('#quizzes').val();
@@ -51,7 +53,7 @@ function gradecalc() {
     output = 'Your final grade is: ' + sLetterGrade
     document.getElementById("outputGrade").innerHTML = output;
 
-}
+});
 
 
     

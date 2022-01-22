@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>@ViewData["Title"]</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/Sunset-Icon-by-Kanggraphic-580x385.jpg" />
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="lib/css/mycss.css" rel="stylesheet" />
+
+    <nav>
+        <a asp-controller="gradecalc" asp-action="index">Home</a>
+        <a asp-controller="gradecalc" asp-action="calc">Grade Calculator</a>
+    </nav>
+</head>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+
+    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="~/js/calc.js"></script>
+</body>
+</html>

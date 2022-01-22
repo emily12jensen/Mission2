@@ -1,0 +1,43 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+}
+
+@model gradecalc;
+
+<form method="post">
+    <h3>Grade Calculator</h3>
+    <p>Assignments:</p>
+    <input type="number" class="center-block" asp-for="assignments" id="assignments" />
+    <br />
+    <p>Group Project:</p>
+    <input type="number" class="center-block" id="groupProject" asp-for="groupproject" />
+    <br />
+    <p>Quizzes:</p>
+    <input type="number" class="center-block" id="quizzes" asp-for="quizzes" />
+    <br />
+    <p>Exams:</p>
+    <input type="number" class="center-block" id="exams" asp-for="exams" />
+    <br />
+    <p>INTEX:</p>
+    <input type="number" class="center-block" id="intex" asp-for="intex" />
+    <br />
+    <br />
+    <div asp-validation-summary="All"></div>
+
+
+
+</form>
+
+<input type="submit" value="Find out your final grade" class="center" id="submitbutton" />
+<br />
+<br />
+<h3 id="outputGrade"></h3>
+
+
+
+<script>fAverage.toFixed()</script>
+
+
